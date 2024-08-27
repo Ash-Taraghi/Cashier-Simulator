@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cash Register</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register Project</title>
 </head>
 
 <body>
-    <h1> Cash Register Project </h1>
-    <div id="change-due"></div>
-    <div class="input-div">
-        <label for="cash">Enter cash from customer:</label>
-        <input id="cash" type="text">
-        <button type="submit" id="purchase-btn" class="check-btn-styles">Purchase</button>
-    </div>
-    <script src="./script.js"></script>
+    <main id="container">
+        <h2>Cash Register Project 📠</h2>
+        <input autocomplete="off" type="text" id="cash">
+        <button id="purchase-btn">Purchase</button>
+        <p id="price"></p>
+        <p id="change"></p><br>
+        <div id="change-due"></div>
+        <div id="cash-in-drawer"></div>
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
